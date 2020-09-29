@@ -38,6 +38,16 @@ int main (int ac, char** av) {
 	}
 	
 	// Parse the command line arguments
+	if (ac == 4){
+	int start = atoi(*av+1));
+	int stop = atoi(*(argv + 2));
+	}
+	if (ac == 5){
+		int start = atoi(*av+1));
+		int stop = atoi(*(argv + 2));
+		int step = atoi(*(argv + 3));
+		
+	}
 	
 		
 	// Depending on the dimension of the arguments, call the appropriate Morty
